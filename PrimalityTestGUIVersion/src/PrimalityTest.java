@@ -80,7 +80,7 @@ import javax.swing.JFrame;
 		}		
 		
 		JLabel prompt = new JLabel("Number to Test: ");
-		JTextField textField = new JTextField("3", 18);
+		JTextField textField = new JTextField("3", 27);
 		JButton testButton = new JButton("Test");
 		OKListener listener = new OKListener();
 	  
@@ -94,7 +94,7 @@ import javax.swing.JFrame;
 					
 					if (number <= 7919) {
 							checkNumbers(number, primes);
-					}else if (number <= Math.pow(1000000000, 2) ) { 
+					}else if (number <= Math.pow(1000000000, 2) ) { // Prime numbers up to 1,000,000,000,000,000,000
 							checkFactors(number, primes);
 					}
 					else {
@@ -128,7 +128,7 @@ import javax.swing.JFrame;
 					JOptionPane.showMessageDialog(frame, "Not a prime! One factor is 2.");
 					return 2;
 				}else {		
-					for (long i = 3; i <= 1000000000; i+=2) {			
+					for (long i = 3; i <= 1000000000 && i <= Math.pow(inputNumber, 0.5); i+=2) {			
 						if (inputNumber % i == 0) {				
 							JOptionPane.showMessageDialog(frame, inputNumber + " is not a prime. One factor is " + i + ".");
 							return i;

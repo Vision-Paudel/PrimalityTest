@@ -103,7 +103,7 @@ public class PrimalityTest {
 			System.out.println("Not a prime! One factor is 2.");
 			return 2;
 		}else {		
-			for (long i = 3; i <= 1000000000; i+=2) {			
+			for (long i = 3; i <= 1000000000 && i <= Math.pow(inputNumber, 0.5); i+=2) {			
 				if (inputNumber % i == 0) {				
 					System.out.println("Not a prime! One factor is " + i + ".");
 					return i;
