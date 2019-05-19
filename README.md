@@ -7,7 +7,7 @@ I have tried to make it efficient. It tests for large numbers within 15 seconds.
 
 | Includes           | Console       | GUI   |
 | ------------------ |:-------------:| -----:|
-| Source file(s)     |    - [x]      |  - [] |
-| Binary File(s)     |    - [x]      |  - [] |
-| Runnable Jar File  |               |  - [] |
+| Source file(s)     |    - [ ]      |  - [ ]|
+| Binary File(s)     |    - [ ]      |  - [ ]|
+| Runnable Jar File  |               |  - [ ]|
 
