@@ -1,7 +1,7 @@
 # PrimalityTest
 Test for prime numbers.
 -------------------------------
-It can test for prime number up to 1,000,000,000,000,000,000. (1 Quintillion)
+It can test for prime number up to 10E16. (1 Quintillion)
 
 I have tried to make it efficient. It tests for large numbers within seconds.
 
