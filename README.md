@@ -3,6 +3,8 @@ Test for prime numbers.
 -------------------------------
 It can test for prime number up to 10E16 (1 Quintillion) by trying to find possible factors.
 
+Command Line Argument to run jar file after entering the directory: ``Java -jar PrimalityTest.jar``
+
 I have tried to make it efficient. It tests for large numbers within seconds.
 
 | Includes           | Console       | GUI   |
